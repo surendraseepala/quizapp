@@ -1,7 +1,7 @@
 
 var question= document.getElementById('question');
 var quizContainer= document.getElementById('quiz-container');
-var scorecard= document.getElementById('scorecard');
+var scorecard= document.getElementById('scoreboard');
 var option0= document.getElementById('option0');
 var option1= document.getElementById('option1');
 var option2= document.getElementById('option2');
@@ -48,7 +48,7 @@ function nextQuestion(){
     else{
         points.innerHTML= score+ '/'+ questionBank.length;
         quizContainer.style.display= 'none';
-        scoreboard.style.display= 'block'
+        scorecard.style.display= 'block'
     }
 }
 
@@ -65,7 +65,7 @@ function checkAnswer(){
     var answerBank= document.getElementById('answerBank');
     var answers= document.getElementById('answers');
     answerBank.style.display= 'block';
-    scoreboard.style.display= 'none';
+    scorecard.style.display= 'none';
     for(var a=0;a<questionBank.length;a++)
     {
         var list= document.createElement('li');
