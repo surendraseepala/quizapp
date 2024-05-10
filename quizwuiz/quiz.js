@@ -38,7 +38,6 @@ function calcScore(e){
     setTimeout(nextQuestion,300);
 }
 
-//function to display next question
 function nextQuestion(){
     if(i<questionBank.length-1)
     {

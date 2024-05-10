@@ -30,7 +30,7 @@ var questionBank = [
         answer: "style"
     },
     {
-        question: "What does the img tag do in HTML?",
+        question: "What does the img tagg do in HTML?",
         option: [
             "Defines a hyperlink",
             "Embeds an image",
